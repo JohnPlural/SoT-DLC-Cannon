@@ -1,6 +1,24 @@
 # Sunk Percentage Module
 This module is largely the same as the GenericActorDisplay module, with a few changes.
 
+You can find the sunk percentage actor in your actor search, add these mappings to your mapping.py file:
+```
+waters = {
+    "BP_SmallShip_StandardHull_InternalShipWater_C": {
+        "name": "Small Ship Water",
+    },
+    "BP_MediumShip_StandardHull_InternalShipWater_C": {
+        "name": "Medium Ship Water",
+    },
+    "BP_LargeShip_StandardHull_InternalShipWater_C": {
+        "name": "Large Ship Water",
+    },
+}
+
+water_keys = set(waters.keys())
+```
+Be sure to import these keys to your sot_hack.py file.
+
 ## New Things to Include
 - import calculate_distance from helpers
 - add the offsets for ShipInternalWater.WaterAmount, ShipInternalWater.InternalWaterParams and ShipInternalWaterParams.MaxWaterAmount to your offsets.json (these offsets are in my offsets.json)
