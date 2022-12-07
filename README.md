@@ -1,6 +1,8 @@
 # SoT-DLC
 Sea of Thieves ESP and Cannon Prediction using Doug's Framework
 
+![gif](./PredictionShowcaseSmall.gif)
+
 ## Disclaimer
 This is not a public display or release of features but instead a reference point.
 I will not give you the full codebase or files/modules of my code.
