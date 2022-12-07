@@ -15,3 +15,8 @@ At Doug's request, I will not be sharing any solutions or code directly.
 
 # What is this repo
 In this repo I will explain how I wrote modules for doug's framework that can display the above features
+
+# Doug's Framework
+Doug wrote the framework that all of my modules run on. It allows us to get information from the game and display it on the screen.
+
+https://github.com/DougTheDruid/SoT-ESP-Framework
