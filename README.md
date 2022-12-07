@@ -19,7 +19,7 @@ At Doug's request, I will not be sharing any solutions or code directly.
 In this repo I will explain how I wrote modules for doug's framework that can display the above features. This is essentially a combination of information from unknowncheats threads and my own knowledge.
 
 ## Mogistink
-Mogistink is a god who explained cannon prediction in [this post](https://www.unknowncheats.me/forum/3408459-post25.html). His explanation is excellent and is the basis of my implementation. There are, however, some slight differences.
+Mogistink is a god who explains cannon prediction in [this post](https://www.unknowncheats.me/forum/3408459-post25.html). His explanation is excellent and is the basis of my implementation. There are, however, some slight differences.
 
 ## Doug's Framework
 Doug wrote the framework that all of my modules run on. It allows us to get information from the game and display it on the screen.
