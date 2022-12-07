@@ -36,3 +36,12 @@ yaw[1]
 
 ## What we need to do
 Render a circle to point the cannon at.
+
+This is done by generating a distance above the target ship to render the circle at.
+
+This is done by generating an angle of elevation and using the distance to the target ship to calculate the height above the target ship to render the circle at. (trigonometry)
+
+We generate the angle of elevation by using the formula
+![image](https://wikimedia.org/api/rest_v1/media/math/render/svg/4db61cb4c3140b763d9480e51f90050967288397)
+
+This, so far, has relied on the ship being stationary, however the ship will move, so we need to predict where the ship will be in the future.
