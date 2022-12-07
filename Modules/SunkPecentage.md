@@ -2,7 +2,7 @@
 This module is largely the same as the GenericActorDisplay module, with a few changes.
 
 You can find the sunk percentage actor in your actor search, add these mappings to your mapping.py file:
-```
+```python
 waters = {
     "BP_SmallShip_StandardHull_InternalShipWater_C": {
         "name": "Small Ship Water",
