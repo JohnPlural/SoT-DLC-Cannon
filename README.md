@@ -8,6 +8,8 @@ This is not a public display or release of features but instead a reference poin
 I will not give you the full codebase or files/modules of my code.
 At Doug's request, I will not be sharing any solutions or code directly.
 
+You could get banned using this, I personally do not use it and instead wrote it to learn and improve my programming.
+
 ## Features
 - Ship ESP and Prediction (Cannonball and Chainshot)
 - Player ESP (Name/Health)
